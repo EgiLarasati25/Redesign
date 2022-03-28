@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">dana</string>
+    <string name="silahkan_login_menggunakan_akun_ini">Silahkan Login menggunakan Akun Ini</string>
+    <string name="password">Password</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="login">Login</string>
+    <string name="join_us">Join Us!</string>
+    <string name="username">Username</string>
+</resources>

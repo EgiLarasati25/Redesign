@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pocket">
+
+    <ImageView
+        android:id="@+id/home"
+        android:onClick="clickhome"
+        android:layout_width="35dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="25dp"
+        android:paddingTop="735dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_home" />
+
+    <ImageView
+        android:id="@+id/history"
+        android:onClick="clickhistory"
+        android:layout_width="35dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="40dp"
+        android:paddingTop="735dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_history" />
+
+    <ImageView
+        android:id="@+id/pocket"
+        android:layout_width="35dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="145dp"
+        android:paddingTop="735dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_pocket" />
+
+    <ImageView
+        android:id="@+id/akun"
+        android:onClick="clickakun"
+        android:layout_width="35dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="37dp"
+        android:paddingTop="735dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_akun" />
+
+
+</LinearLayout>

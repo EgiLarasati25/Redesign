@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dana">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Dana">
+        <activity
+            android:name=".danaactivity.loading"
+            android:exported="true"
+            android:label="dana"
+            android:theme="@style/Theme.MaterialComponents">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".danaactivity.login"></activity>
+        <activity android:name=".danaactivity.akun"></activity>
+        <activity android:name=".danaactivity.home"></activity>
+        <activity android:name=".danaactivity.pocket"></activity>
+        <activity android:name=".danaactivity.riwayat"></activity>
+    </application>
+
+</manifest>
